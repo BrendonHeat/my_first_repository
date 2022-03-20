@@ -1,0 +1,106 @@
+
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+@import "/css/components/header.css";
+@import "/css/components/navbar.css";
+@import "/css/components/oters.css";
+@import "/css/components/section.css";
+@import "/css/components/bootstrap-skins.css";
+
+
+.font1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.font2 {
+  font-family: 'Playfair Display', serif;
+}
+
+.font3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-accent {
+  color: #D4C17F;
+}
+
+body {
+  font-family: 'Releway', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  min-width: 280px;
+  background: #242b33;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  font-weight: 700px;
+  color: #D4C17F;
+}
+
+.link_unstyled {
+  color: #fff;
+  text-decoration: none;
+
+}
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 700;
+  color: #D4C17F;
+}
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-style: 36px;
+  font-weight: 700;
+  color: #D4C17F;
+  margin-bottom: 50px !important;
+}
+
+p {
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+a:hover {
+  color: #D4C17F;
+}
+
+.posr {
+  position: relative;
+}
+
+.fz13 {
+  font-size: 13px;
+}
+.d-block {
+  display: block;
+}
+
+.btn {
+
+  display: inline-block;
+  line-height: 1;
+  font-weight: 500;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 0;
+  color: #fff;
+  transition: all .9s ease-out;
+}
+
+.btn-accent {
+  background: #D4C17F;
+  color: #fff;
+}
+
+.btn:hover {
+  color: #D4C17F;
+}

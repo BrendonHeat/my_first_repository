@@ -1,0 +1,57 @@
+.header {
+  position: relative;
+  min-height: 840px;
+  background: url(/jpg/header_img/Rectangle.jpg) center/cover;
+  display: flex;
+  align-items: flex-end;
+}
+.header__content{
+  position: relative;
+  height: 100%;
+  text-align: center;
+  min-width: 582px;
+  margin: auto;
+  min-height: 472px;
+}
+
+.header__content-contacts{
+margin-top: 340px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+padding-bottom: 60px;
+
+}
+
+.header__element-contacts--item {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.header__element-contacts--item [class*="icon-"] {
+margin-right: 15px;
+
+}
+
+.mouse-effect {
+  position: absolute;
+  top: 209px;
+  left: 50%;
+transform: translateY(-50%);
+  animation: bouncing 0.5s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both;
+
+}
+
+@keyframes bouncing{
+  0%  { transform: translateY(-10px);
+  }
+  100% { transform: translateY(10px);
+  }
+}
+  
+a:hover {
+  color: #D4C17F;
+}

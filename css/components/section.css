@@ -1,0 +1,40 @@
+.section {
+  position: relative;
+  padding: 180px;
+  width: 100%;
+  margin: auto;
+}
+
+.section__number {
+  position: absolute;
+  font-family: 'playfair Display', serif;
+  font-weight: 700px;
+  opacity: 0.02;
+  top: 0;
+  font-size: 400px;
+  line-height: 1;
+  z-index: -1;
+  
+}
+
+#facts {
+  padding: 120px 0;
+
+}
+.section__number-right {
+  right: 258px;
+}
+.section__title {
+  font-family: 'playfair Display', serif;
+  font-size: 36px;
+  line-height: 48px;
+  color: #D4C17f;
+  padding-bottom: 100px;
+  font-weight: 700;
+}
+.align-items-center {
+  display: flex;
+  align-items: center;
+}
+
+

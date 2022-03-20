@@ -1,0 +1,76 @@
+.facts {
+  width: 794px;
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  margin: auto;
+}
+
+.facts__item {
+  width: 100%;
+  text-align: center;
+  }
+
+  .facts__item-title {
+    padding-top: 50px;
+    
+  }
+  #our__rooms>img {
+    width: 100%;
+  }
+
+  .room {
+    margin-bottom: 30px;
+    width: 100%;
+    position: relative;
+
+  }
+
+  .room__title {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    right: 50px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  #our__rooms {
+    padding-top: 0;
+  }
+  #cta {
+    background: url(/jpg/section/bg.jpg) center / cover;
+  }
+
+  .form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .form__item {
+    width: calc(50% -15px);
+    margin-bottom: 35px;
+  }
+
+  .form-control {
+    width: 100%;
+    border: none;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 0;
+    padding: 12px;
+    color: #fff;
+  }
+
+  .form-control:focus {
+    outline: none !important;
+    background-color: rgba(255, 255, 255, .4);
+    color: #fff;
+  }
+
+  .form-control::placeholder {
+    color: #bebebe;
+  }
